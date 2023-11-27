@@ -1,0 +1,76 @@
+body {
+    background-color: #fff; /* White background */
+    font-family: 'Arial', sans-serif; 
+    font-size: 18px;/* Common font from that era */
+    color: #000; /* Black text */
+    margin: 20px;
+}
+
+h1, h2, h3, h4, h5 {
+    text-align: center;
+    color: #3366cc; /* A shade of blue popular in the early 2000s */
+}
+/* ... (existing styles) ... */
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px; /* Adjust this value for spacing between grid items */
+    margin: 20px auto;
+}
+
+.grid-item {
+    text-align: center;
+    margin-bottom: 0; /* Remove margin for grid items */
+    padding: 0; /* Remove padding for grid items */
+    align-items: start;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #000;
+    border-radius: 4px;
+    margin: 0; /* Remove margin for images */
+    padding: 0; /* Remove padding for images */
+}
+
+/* ... (existing styles) ... */
+
+
+p {
+    font-size: 18px;
+    text-align: center;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+/* Additional styling for a nostalgic look */
+.nostalgic-container {
+    background-color: #f1f1f1; /* Light gray background */
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+}
+
+/* Centered text within the nostalgic container */
+.nostalgic-text {
+    text-align: center;
+}
+
+/* Centered text within the body */
+.center-text {
+    text-align: center;
+}
+
+/* Horizontal rule style */
+hr {
+    border: 1px solid #000;
+    margin: 20px 0;
+}
+
+    
